@@ -1,0 +1,35 @@
+[2024-11-26T10:19:20.534+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-26T10:19:20.541+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.transform_weather_hist_data manual__2024-11-26T10:19:18.370165+00:00 [queued]>
+[2024-11-26T10:19:20.544+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.transform_weather_hist_data manual__2024-11-26T10:19:18.370165+00:00 [queued]>
+[2024-11-26T10:19:20.544+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-26T10:19:20.549+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): transform_weather_hist_data> on 2024-11-26 10:19:18.370165+00:00
+[2024-11-26T10:19:20.553+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=5446) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T10:19:20.554+0000] {standard_task_runner.py:63} INFO - Started process 5449 to run task
+[2024-11-26T10:19:20.553+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Weather_Hist_Data_ETL', 'transform_weather_hist_data', 'manual__2024-11-26T10:19:18.370165+00:00', '--job-id', '176', '--raw', '--subdir', 'DAGS_FOLDER/ETL_weather_historical.py', '--cfg-path', '/tmp/tmpcw8x6vlm']
+[2024-11-26T10:19:20.555+0000] {standard_task_runner.py:91} INFO - Job 176: Subtask transform_weather_hist_data
+[2024-11-26T10:19:20.574+0000] {task_command.py:426} INFO - Running <TaskInstance: Weather_Hist_Data_ETL.transform_weather_hist_data manual__2024-11-26T10:19:18.370165+00:00 [running]> on host 5de3b6ca18a7
+[2024-11-26T10:19:20.656+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Weather_Hist_Data_ETL' AIRFLOW_CTX_TASK_ID='transform_weather_hist_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T10:19:18.370165+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T10:19:18.370165+00:00'
+[2024-11-26T10:19:20.657+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-26T10:19:20.674+0000] {logging_mixin.py:188} INFO - Historical Weather Dataset Features Post Transformation:  Index(['date', 'temp', 'temp_feel', 'humidity', 'rain', 'year', 'month', 'day',
+       'hour', 'day_temp_max', 'day_temp_min'],
+      dtype='object')
+[2024-11-26T10:19:20.674+0000] {logging_mixin.py:188} INFO - Transformed Weather Dataset Row Count:  27048
+[2024-11-26T10:19:20.674+0000] {python.py:237} INFO - Done. Returned value was:                            date       temp  ...  day_temp_max  day_temp_min
+0     2021-10-01 00:00:00+00:00  35.916801  ...     47.796799     31.506800
+1     2021-10-01 01:00:00+00:00  33.756802  ...     47.796799     31.506800
+2     2021-10-01 02:00:00+00:00  35.286800  ...     47.796799     31.506800
+3     2021-10-01 03:00:00+00:00  39.426800  ...     47.796799     31.506800
+4     2021-10-01 04:00:00+00:00  42.846802  ...     47.796799     31.506800
+...                         ...        ...  ...           ...           ...
+27043 2024-10-31 19:00:00+00:00  10.266802  ...     35.196800     -0.533203
+27044 2024-10-31 20:00:00+00:00   8.556801  ...     35.196800     -0.533203
+27045 2024-10-31 21:00:00+00:00   8.286800  ...     35.196800     -0.533203
+27046 2024-10-31 22:00:00+00:00   9.096800  ...     35.196800     -0.533203
+27047 2024-10-31 23:00:00+00:00   8.646801  ...     35.196800     -0.533203
+
+[27048 rows x 11 columns]
+[2024-11-26T10:19:20.680+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-26T10:19:20.770+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Weather_Hist_Data_ETL, task_id=transform_weather_hist_data, run_id=manual__2024-11-26T10:19:18.370165+00:00, execution_date=20241126T101918, start_date=20241126T101920, end_date=20241126T101920
+[2024-11-26T10:19:20.821+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-26T10:19:20.834+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T10:19:20.835+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

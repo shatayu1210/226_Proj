@@ -1,0 +1,89 @@
+[2024-11-24T07:55:20.492+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-24T07:55:20.499+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Citibike_Data_ETL.extract_citibike_data scheduled__2024-11-22T21:30:00+00:00 [queued]>
+[2024-11-24T07:55:20.503+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Citibike_Data_ETL.extract_citibike_data scheduled__2024-11-22T21:30:00+00:00 [queued]>
+[2024-11-24T07:55:20.503+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-24T07:55:20.508+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): extract_citibike_data> on 2024-11-22 21:30:00+00:00
+[2024-11-24T07:55:20.513+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Citibike_Data_ETL', 'extract_citibike_data', 'scheduled__2024-11-22T21:30:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/ETL.py', '--cfg-path', '/tmp/tmpdt6vu9hq']
+[2024-11-24T07:55:20.514+0000] {standard_task_runner.py:91} INFO - Job 7: Subtask extract_citibike_data
+[2024-11-24T07:55:20.514+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1223) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-24T07:55:20.515+0000] {standard_task_runner.py:63} INFO - Started process 1226 to run task
+[2024-11-24T07:55:20.535+0000] {task_command.py:426} INFO - Running <TaskInstance: Citibike_Data_ETL.extract_citibike_data scheduled__2024-11-22T21:30:00+00:00 [running]> on host d0062ae4dc93
+[2024-11-24T07:55:20.569+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Citibike_Data_ETL' AIRFLOW_CTX_TASK_ID='extract_citibike_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-22T21:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-22T21:30:00+00:00'
+[2024-11-24T07:55:20.570+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-24T07:55:21.296+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202001-citibike-tripdata.csv
+[2024-11-24T07:55:21.950+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202002-citibike-tripdata.csv
+[2024-11-24T07:55:22.605+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202003-citibike-tripdata.csv
+[2024-11-24T07:55:23.138+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202004-citibike-tripdata.csv
+[2024-11-24T07:55:23.794+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202005-citibike-tripdata.csv
+[2024-11-24T07:55:24.543+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202006-citibike-tripdata.csv
+[2024-11-24T07:55:25.276+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202007-citibike-tripdata.csv
+[2024-11-24T07:55:26.046+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202008-citibike-tripdata.csv
+[2024-11-24T07:55:26.846+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202009-citibike-tripdata.csv
+[2024-11-24T07:55:29.188+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202010-citibike-tripdata.csv
+[2024-11-24T07:55:31.101+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202011-citibike-tripdata.csv
+[2024-11-24T07:55:31.655+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202012-citibike-tripdata.csv
+[2024-11-24T07:55:32.213+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202101-citibike-tripdata.csv
+[2024-11-24T07:55:32.667+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202102-citibike-tripdata.csv
+[2024-11-24T07:55:33.322+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202103-citibike-tripdata.csv
+[2024-11-24T07:55:33.988+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202104-citibike-tripdata.csv
+[2024-11-24T07:55:34.760+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202105-citibike-tripdata.csv
+[2024-11-24T07:55:35.664+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202106-citibike-tripdata.csv
+[2024-11-24T07:55:36.685+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202107-citibike-tripdata.csv
+[2024-11-24T07:55:37.743+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202108-citibike-tripdata.csv
+[2024-11-24T07:55:38.770+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202109-citibike-tripdata.csv
+[2024-11-24T07:55:39.828+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202110-citibike-tripdata.csv
+[2024-11-24T07:55:40.667+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202111-citibike-tripdata.csv
+[2024-11-24T07:55:41.478+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202112-citibike-tripdata.csv
+[2024-11-24T07:55:42.190+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202201-citibike-tripdata.csv
+[2024-11-24T07:55:42.934+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202202-citibike-tripdata.csv
+[2024-11-24T07:55:43.837+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202203-citibike-tripdata.csv
+[2024-11-24T07:55:44.791+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202204-citibike-tripdata.csv
+[2024-11-24T07:55:45.757+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202205-citibike-tripdata.csv
+[2024-11-24T07:55:46.959+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202206-citibike-tripdata.csv
+[2024-11-24T07:55:48.135+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202207-citbike-tripdata.csv
+[2024-11-24T07:55:49.259+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202208-citibike-tripdata.csv
+[2024-11-24T07:55:50.508+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202209-citibike-tripdata.csv
+[2024-11-24T07:55:51.675+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202210-citibike-tripdata.csv
+[2024-11-24T07:55:53.075+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202211-citibike-tripdata.csv
+[2024-11-24T07:55:53.932+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202212-citibike-tripdata.csv
+[2024-11-24T07:55:54.905+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202301-citibike-tripdata.csv
+[2024-11-24T07:55:55.882+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202302-citibike-tripdata.csv
+[2024-11-24T07:55:56.872+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202303-citibike-tripdata.csv
+[2024-11-24T07:55:57.923+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202304-citibike-tripdata.csv
+[2024-11-24T07:55:59.073+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202305-citibike-tripdata.csv
+[2024-11-24T07:56:00.254+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202306-citibike-tripdata.csv
+[2024-11-24T07:56:01.440+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202307-citibike-tripdata.csv
+[2024-11-24T07:56:02.726+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202308-citibike-tripdata.csv
+[2024-11-24T07:56:03.884+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202309-citibike-tripdata.csv
+[2024-11-24T07:56:05.048+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202310-citibike-tripdata.csv
+[2024-11-24T07:56:06.077+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202311-citibike-tripdata.csv
+[2024-11-24T07:56:07.070+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202312-citibike-tripdata.csv
+[2024-11-24T07:56:07.963+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202401-citibike-tripdata.csv
+[2024-11-24T07:56:08.924+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202402-citibike-tripdata.csv
+[2024-11-24T07:56:09.924+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202403-citibike-tripdata.csv
+[2024-11-24T07:56:11.024+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202404-citibike-tripdata.csv
+[2024-11-24T07:56:12.145+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202405-citibike-tripdata.csv
+[2024-11-24T07:56:13.310+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202406-citibike-tripdata.csv
+[2024-11-24T07:56:14.530+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202407-citibike-tripdata.csv
+[2024-11-24T07:56:15.727+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202408-citibike-tripdata.csv
+[2024-11-24T07:56:17.027+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202409-citibike-tripdata.csv
+[2024-11-24T07:56:18.342+0000] {logging_mixin.py:188} INFO - Successfully processed: JC-202410-citibike-tripdata.csv
+[2024-11-24T07:56:18.343+0000] {logging_mixin.py:188} INFO - Reached 202411, exiting extraction.
+[2024-11-24T07:56:21.649+0000] {python.py:237} INFO - Done. Returned value was:          tripduration                 starttime  ...    end_lng  member_casual
+0               226.0  2020-01-01 00:04:50.1920  ...        NaN            NaN
+1               377.0  2020-01-01 00:16:01.6700  ...        NaN            NaN
+2               288.0  2020-01-01 00:17:33.8770  ...        NaN            NaN
+3               435.0  2020-01-01 00:32:05.9020  ...        NaN            NaN
+4               231.0  2020-01-01 00:46:19.6780  ...        NaN            NaN
+...               ...                       ...  ...        ...            ...
+3777900           NaN                       NaN  ... -74.028865         casual
+3777901           NaN                       NaN  ... -74.028865         member
+3777902           NaN                       NaN  ... -74.028865         member
+3777903           NaN                       NaN  ... -74.028865         member
+3777904           NaN                       NaN  ... -74.028865         member
+
+[3777905 rows x 28 columns]
+[2024-11-24T07:56:21.676+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-24T07:56:37.518+0000] {local_task_job_runner.py:240} INFO - Task exited with return code -9
+[2024-11-24T07:56:37.614+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-24T07:56:37.615+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

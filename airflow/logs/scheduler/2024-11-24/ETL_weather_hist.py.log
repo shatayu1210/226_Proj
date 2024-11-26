@@ -1,0 +1,270 @@
+[2024-11-24T23:48:55.685+0000] {processor.py:161} INFO - Started process (PID=4410) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:48:55.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:48:55.691+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:48:55.691+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:48:55.723+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:48:55.720+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 93, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:48:55.725+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:48:55.750+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.076 seconds
+[2024-11-24T23:49:00.845+0000] {processor.py:161} INFO - Started process (PID=4420) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:49:00.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:49:00.847+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:49:00.847+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:49:00.867+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:49:00.863+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 94, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:49:00.870+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:49:00.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.046 seconds
+[2024-11-24T23:49:31.165+0000] {processor.py:161} INFO - Started process (PID=4436) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:49:31.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:49:31.167+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:49:31.167+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:49:31.186+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:49:31.182+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 94, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:49:31.189+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:49:31.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.043 seconds
+[2024-11-24T23:50:01.509+0000] {processor.py:161} INFO - Started process (PID=4452) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:01.510+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:50:01.512+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:01.511+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:01.529+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:01.525+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 94, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:50:01.532+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:01.545+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.045 seconds
+[2024-11-24T23:50:03.535+0000] {processor.py:161} INFO - Started process (PID=4457) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:03.536+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:50:03.537+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:03.537+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:03.555+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:03.551+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 96, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:50:03.558+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:03.570+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.042 seconds
+[2024-11-24T23:50:30.880+0000] {processor.py:161} INFO - Started process (PID=4473) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:30.882+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:50:30.883+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:30.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:30.902+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:30.898+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 96, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:50:30.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:30.916+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.043 seconds
+[2024-11-24T23:50:45.088+0000] {processor.py:161} INFO - Started process (PID=4484) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:45.090+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:50:45.091+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:45.090+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:45.108+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:45.104+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 96, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:50:45.111+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:45.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.042 seconds
+[2024-11-24T23:50:50.164+0000] {processor.py:161} INFO - Started process (PID=4489) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:50.165+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:50:50.166+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:50.166+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:50.188+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:50:50.185+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:50:50.191+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:50:50.202+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.049 seconds
+[2024-11-24T23:51:20.543+0000] {processor.py:161} INFO - Started process (PID=4505) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:51:20.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:51:20.545+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:51:20.544+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:51:20.564+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:51:20.560+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:51:20.567+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:51:20.578+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.044 seconds
+[2024-11-24T23:51:50.864+0000] {processor.py:161} INFO - Started process (PID=4521) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:51:50.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:51:50.866+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:51:50.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:51:50.880+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:51:50.876+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:51:50.883+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:51:50.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.042 seconds
+[2024-11-24T23:52:21.184+0000] {processor.py:161} INFO - Started process (PID=4537) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:52:21.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:52:21.186+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:52:21.186+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:52:21.201+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:52:21.197+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:52:21.204+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:52:21.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.038 seconds
+[2024-11-24T23:52:51.549+0000] {processor.py:161} INFO - Started process (PID=4553) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:52:51.550+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:52:51.551+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:52:51.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:52:51.575+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:52:51.571+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:52:51.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:52:51.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.052 seconds
+[2024-11-24T23:53:21.882+0000] {processor.py:161} INFO - Started process (PID=4569) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:53:21.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:53:21.884+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:53:21.883+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:53:21.904+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:53:21.900+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:53:21.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:53:21.918+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.045 seconds
+[2024-11-24T23:53:52.178+0000] {processor.py:161} INFO - Started process (PID=4585) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:53:52.180+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:53:52.181+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:53:52.180+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:53:52.199+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:53:52.195+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:53:52.202+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:53:52.220+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.050 seconds
+[2024-11-24T23:54:22.469+0000] {processor.py:161} INFO - Started process (PID=4601) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:54:22.469+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:54:22.470+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:54:22.470+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:54:22.485+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:54:22.481+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:54:22.487+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:54:22.499+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.037 seconds
+[2024-11-24T23:54:52.756+0000] {processor.py:161} INFO - Started process (PID=4617) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:54:52.757+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:54:52.757+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:54:52.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:54:52.772+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:54:52.767+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:54:52.776+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:54:52.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.041 seconds
+[2024-11-24T23:55:23.087+0000] {processor.py:161} INFO - Started process (PID=4633) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:55:23.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:55:23.088+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:55:23.088+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:55:23.099+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:55:23.096+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:55:23.102+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:55:23.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.030 seconds
+[2024-11-24T23:55:53.438+0000] {processor.py:161} INFO - Started process (PID=4649) to work on /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:55:53.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_hist.py for tasks to queue
+[2024-11-24T23:55:53.441+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:55:53.440+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:55:53.460+0000] {logging_mixin.py:188} INFO - [2024-11-24T23:55:53.456+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/ETL_weather_hist.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/ETL_weather_hist.py", line 97, in <module>
+    extracted_file_path = os.path.join(LOCAL_STORAGE_DIR, 'extracted_data.csv')
+                                       ^^^^^^^^^^^^^^^^^
+NameError: name 'LOCAL_STORAGE_DIR' is not defined
+[2024-11-24T23:55:53.463+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/ETL_weather_hist.py
+[2024-11-24T23:55:53.477+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_hist.py took 0.047 seconds

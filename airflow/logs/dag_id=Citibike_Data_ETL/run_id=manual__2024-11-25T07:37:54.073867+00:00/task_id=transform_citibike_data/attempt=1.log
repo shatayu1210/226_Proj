@@ -1,0 +1,38 @@
+[2024-11-25T07:38:57.764+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-25T07:38:57.774+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Citibike_Data_ETL.transform_citibike_data manual__2024-11-25T07:37:54.073867+00:00 [queued]>
+[2024-11-25T07:38:57.778+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Citibike_Data_ETL.transform_citibike_data manual__2024-11-25T07:37:54.073867+00:00 [queued]>
+[2024-11-25T07:38:57.778+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-25T07:38:57.783+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): transform_citibike_data> on 2024-11-25 07:37:54.073867+00:00
+[2024-11-25T07:38:57.788+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=9136) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-25T07:38:57.788+0000] {standard_task_runner.py:63} INFO - Started process 9144 to run task
+[2024-11-25T07:38:57.789+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Citibike_Data_ETL', 'transform_citibike_data', 'manual__2024-11-25T07:37:54.073867+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/ETL_citibike.py', '--cfg-path', '/tmp/tmpzyfi8_gb']
+[2024-11-25T07:38:57.792+0000] {standard_task_runner.py:91} INFO - Job 98: Subtask transform_citibike_data
+[2024-11-25T07:38:57.814+0000] {task_command.py:426} INFO - Running <TaskInstance: Citibike_Data_ETL.transform_citibike_data manual__2024-11-25T07:37:54.073867+00:00 [running]> on host 5de3b6ca18a7
+[2024-11-25T07:38:57.852+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Citibike_Data_ETL' AIRFLOW_CTX_TASK_ID='transform_citibike_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-25T07:37:54.073867+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-25T07:37:54.073867+00:00'
+[2024-11-25T07:38:57.853+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-25T07:39:02.932+0000] {logging_mixin.py:188} INFO - Extracted Rows:  2993504
+[2024-11-25T07:39:06.238+0000] {logging_mixin.py:188} INFO - Row count after dropping records with any null attributes:  2982755
+[2024-11-25T07:39:14.863+0000] {logging_mixin.py:188} INFO - Row count after dropping duplicates:  2982715
+[2024-11-25T07:39:33.839+0000] {logging_mixin.py:188} INFO - 
+Saved transformed data to: /opt/***/temp_store_proj/cleaned_data.csv
+[2024-11-25T07:39:33.843+0000] {logging_mixin.py:188} INFO - 
+Features in transformed data:  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual', 'start_year', 'start_month', 'start_day', 'duration'],
+      dtype='object')
+[2024-11-25T07:39:33.843+0000] {logging_mixin.py:188} INFO - Sample records:
+[2024-11-25T07:39:33.861+0000] {logging_mixin.py:188} INFO -              ride_id  rideable_type  ... start_day duration
+0  1F77B1214EC26C33  electric_bike  ...         6    50.37
+1  2C4DBFEC79FAE712   classic_bike  ...        11    10.48
+2  3C533F406407D755   classic_bike  ...        30     1.43
+3  D46E9259B84BE225   classic_bike  ...        22    82.40
+4  0A6B5D4CC23FC8E5   classic_bike  ...         7    10.32
+
+[5 rows x 17 columns]
+[2024-11-25T07:39:34.902+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-11-25T07:39:34.904+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-25T07:39:34.923+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Citibike_Data_ETL, task_id=transform_citibike_data, run_id=manual__2024-11-25T07:37:54.073867+00:00, execution_date=20241125T073754, start_date=20241125T073857, end_date=20241125T073934
+[2024-11-25T07:39:34.966+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-25T07:39:35.011+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-25T07:39:35.013+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

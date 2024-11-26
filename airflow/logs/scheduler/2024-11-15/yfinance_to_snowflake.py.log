@@ -1,0 +1,361 @@
+[2024-11-15T00:38:13.167+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:38:13.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:38:13.171+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.171+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:38:13.340+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:38:13.402+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.402+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:YfinanceToSnowflake
+[2024-11-15T00:38:13.406+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.406+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:YfinanceToSnowflake
+[2024-11-15T00:38:13.408+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.408+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:YfinanceToSnowflake
+[2024-11-15T00:38:13.409+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.409+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:38:13.414+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.414+0000] {dag.py:3118} INFO - Creating ORM DAG for YfinanceToSnowflake
+[2024-11-15T00:38:13.419+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:13.419+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:38:13.426+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.262 seconds
+[2024-11-15T00:38:43.457+0000] {processor.py:161} INFO - Started process (PID=271) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:38:43.460+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:38:43.462+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:43.462+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:38:43.550+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:38:43.564+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:43.564+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:38:43.575+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:38:43.575+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:38:43.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.133 seconds
+[2024-11-15T00:39:13.893+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:39:13.894+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:39:13.895+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:39:13.895+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:39:13.970+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:39:13.982+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:39:13.982+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:39:13.992+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:39:13.992+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:39:13.999+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.111 seconds
+[2024-11-15T00:39:44.286+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:39:44.289+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:39:44.291+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:39:44.291+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:39:44.364+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:39:44.376+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:39:44.376+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:39:44.386+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:39:44.386+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:39:44.394+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.112 seconds
+[2024-11-15T00:40:14.615+0000] {processor.py:161} INFO - Started process (PID=319) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:40:14.618+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:40:14.620+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:40:14.620+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:40:14.690+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:40:14.703+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:40:14.702+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:40:14.712+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:40:14.712+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:40:14.719+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.109 seconds
+[2024-11-15T00:40:44.955+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:40:44.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:40:44.957+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:40:44.956+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:40:45.034+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:40:45.047+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:40:45.047+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:40:45.056+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:40:45.056+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:40:45.063+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T00:41:15.370+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:41:15.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:41:15.373+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:41:15.372+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:41:15.450+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:41:15.462+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:41:15.462+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:41:15.471+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:41:15.471+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:41:15.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T00:41:45.795+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:41:45.796+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:41:45.797+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:41:45.797+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:41:45.873+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:41:45.885+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:41:45.885+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:41:45.895+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:41:45.895+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:41:45.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T00:42:16.218+0000] {processor.py:161} INFO - Started process (PID=383) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:42:16.219+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:42:16.222+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:42:16.222+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:42:16.294+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:42:16.306+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:42:16.306+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:42:16.316+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:42:16.316+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:42:16.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.110 seconds
+[2024-11-15T00:42:46.611+0000] {processor.py:161} INFO - Started process (PID=399) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:42:46.611+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:42:46.615+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:42:46.615+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:42:46.691+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:42:46.704+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:42:46.704+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:42:46.715+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:42:46.715+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:42:46.724+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.117 seconds
+[2024-11-15T00:43:17.039+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:43:17.040+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:43:17.043+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:43:17.043+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:43:17.115+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:43:17.128+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:43:17.128+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:43:17.137+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:43:17.137+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:43:17.144+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.108 seconds
+[2024-11-15T00:43:47.430+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:43:47.431+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:43:47.432+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:43:47.432+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:43:47.509+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:43:47.522+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:43:47.522+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:43:47.532+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:43:47.532+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:43:47.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T00:44:17.777+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:44:17.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:44:17.780+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:44:17.780+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:44:17.858+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:44:17.869+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:44:17.869+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:44:17.879+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:44:17.879+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:44:17.886+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.115 seconds
+[2024-11-15T00:44:48.140+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:44:48.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:44:48.143+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:44:48.143+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:44:48.214+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:44:48.227+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:44:48.226+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:44:48.236+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:44:48.236+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:44:48.244+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.107 seconds
+[2024-11-15T00:45:18.485+0000] {processor.py:161} INFO - Started process (PID=479) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:45:18.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:45:18.490+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:45:18.490+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:45:18.569+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:45:18.585+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:45:18.584+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:45:18.598+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:45:18.598+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:45:18.609+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.128 seconds
+[2024-11-15T00:45:54.997+0000] {processor.py:161} INFO - Started process (PID=229) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:45:54.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:45:54.999+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:45:54.999+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:45:55.099+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:45:55.154+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:45:55.154+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:45:55.164+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:45:55.164+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:45:55.175+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.180 seconds
+[2024-11-15T00:46:42.874+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:46:42.874+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:46:42.876+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:46:42.876+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:46:42.978+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:46:43.032+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:46:43.031+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:46:43.041+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:46:43.041+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:46:43.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.180 seconds
+[2024-11-15T00:47:13.173+0000] {processor.py:161} INFO - Started process (PID=272) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:47:13.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:47:13.178+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:47:13.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:47:13.251+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:47:13.264+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:47:13.263+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:47:13.273+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:47:13.273+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:47:13.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T00:47:43.553+0000] {processor.py:161} INFO - Started process (PID=288) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:47:43.555+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:47:43.557+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:47:43.557+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:47:43.634+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:47:43.646+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:47:43.646+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:47:43.656+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:47:43.656+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:47:43.663+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.115 seconds
+[2024-11-15T00:48:13.963+0000] {processor.py:161} INFO - Started process (PID=304) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:48:13.964+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:48:13.968+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:48:13.968+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:48:14.041+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:48:14.054+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:48:14.053+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:48:14.064+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:48:14.064+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:48:14.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.116 seconds
+[2024-11-15T00:48:44.385+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:48:44.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:48:44.388+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:48:44.388+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:48:44.462+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:48:44.475+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:48:44.475+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:48:44.484+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:48:44.484+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:48:44.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.111 seconds
+[2024-11-15T00:49:14.799+0000] {processor.py:161} INFO - Started process (PID=336) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:49:14.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:49:14.802+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:49:14.802+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:49:14.879+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:49:14.892+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:49:14.892+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:49:14.902+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:49:14.902+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:49:14.909+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.115 seconds
+[2024-11-15T00:49:45.227+0000] {processor.py:161} INFO - Started process (PID=352) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:49:45.227+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:49:45.229+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:49:45.229+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:49:45.302+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:49:45.314+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:49:45.314+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:49:45.323+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:49:45.323+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:49:45.330+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.108 seconds
+[2024-11-15T00:50:15.576+0000] {processor.py:161} INFO - Started process (PID=368) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:50:15.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:50:15.580+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:50:15.580+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:50:15.650+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:50:15.662+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:50:15.662+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:50:15.672+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:50:15.671+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:50:15.679+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.106 seconds
+[2024-11-15T00:50:46.015+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:50:46.016+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:50:46.019+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:50:46.019+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:50:46.093+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:50:46.106+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:50:46.106+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:50:46.115+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:50:46.115+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:50:46.124+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T00:51:16.416+0000] {processor.py:161} INFO - Started process (PID=400) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:51:16.417+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:51:16.417+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:51:16.417+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:51:16.492+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:51:16.503+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:51:16.503+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:51:16.514+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:51:16.514+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:51:16.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.109 seconds
+[2024-11-15T00:51:46.826+0000] {processor.py:161} INFO - Started process (PID=415) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:51:46.827+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:51:46.828+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:51:46.828+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:51:46.912+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:51:46.927+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:51:46.926+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:51:46.936+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:51:46.936+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:51:46.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.123 seconds
+[2024-11-15T00:52:17.271+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:52:17.272+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:52:17.273+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:52:17.273+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:52:17.352+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:52:17.365+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:52:17.365+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:52:17.374+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:52:17.374+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:52:17.382+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.115 seconds
+[2024-11-15T00:52:47.703+0000] {processor.py:161} INFO - Started process (PID=447) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:52:47.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:52:47.707+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:52:47.707+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:52:47.785+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:52:47.798+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:52:47.797+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:52:47.807+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:52:47.807+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:52:47.814+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.116 seconds
+[2024-11-15T00:53:18.084+0000] {processor.py:161} INFO - Started process (PID=463) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:53:18.087+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:53:18.089+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:53:18.089+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:53:18.169+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:53:18.182+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:53:18.182+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:53:18.191+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:53:18.191+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:53:18.200+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.121 seconds
+[2024-11-15T00:53:48.501+0000] {processor.py:161} INFO - Started process (PID=479) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:53:48.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:53:48.503+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:53:48.503+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:53:48.581+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:53:48.593+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:53:48.593+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:53:48.603+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:53:48.602+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:53:48.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T00:54:18.885+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:54:18.886+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:54:18.887+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:54:18.887+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:54:18.967+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:54:18.980+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:54:18.979+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:54:18.990+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:54:18.990+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:54:18.997+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.118 seconds
+[2024-11-15T00:54:49.329+0000] {processor.py:161} INFO - Started process (PID=511) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:54:49.332+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:54:49.335+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:54:49.335+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:54:49.412+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:54:49.425+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:54:49.425+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:54:49.435+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:54:49.435+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:54:49.443+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.121 seconds
+[2024-11-15T00:55:19.733+0000] {processor.py:161} INFO - Started process (PID=527) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:55:19.734+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:55:19.736+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:55:19.736+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:55:19.812+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:55:19.825+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:55:19.825+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:55:19.834+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:55:19.834+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:55:19.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T00:55:50.181+0000] {processor.py:161} INFO - Started process (PID=543) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:55:50.181+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:55:50.183+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:55:50.182+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:55:50.255+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:55:50.267+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:55:50.267+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:55:50.276+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:55:50.276+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:55:50.285+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.109 seconds
+[2024-11-15T00:56:20.599+0000] {processor.py:161} INFO - Started process (PID=559) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:56:20.600+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:56:20.602+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:56:20.602+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:56:20.678+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:56:20.690+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:56:20.690+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:56:20.699+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:56:20.699+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:56:20.707+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T00:56:50.946+0000] {processor.py:161} INFO - Started process (PID=575) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:56:50.947+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:56:50.949+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:56:50.948+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:56:51.023+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:56:51.036+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:56:51.035+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:56:51.046+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:56:51.046+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:56:51.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T00:57:21.362+0000] {processor.py:161} INFO - Started process (PID=591) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:57:21.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:57:21.367+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:57:21.367+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:57:21.441+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:57:21.455+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:57:21.455+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:57:21.466+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:57:21.466+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:57:21.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.120 seconds
+[2024-11-15T00:57:51.708+0000] {processor.py:161} INFO - Started process (PID=607) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:57:51.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:57:51.710+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:57:51.710+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:57:51.786+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:57:51.800+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:57:51.800+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:57:51.809+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:57:51.809+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:57:51.818+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T00:58:22.118+0000] {processor.py:161} INFO - Started process (PID=623) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:58:22.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:58:22.126+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:58:22.126+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:58:22.201+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:58:22.214+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:58:22.214+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:58:22.223+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:58:22.223+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:58:22.231+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.118 seconds
+[2024-11-15T00:58:52.548+0000] {processor.py:161} INFO - Started process (PID=639) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:58:52.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:58:52.552+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:58:52.551+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:58:52.630+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:58:52.643+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:58:52.643+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:58:52.652+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:58:52.652+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:58:52.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.118 seconds
+[2024-11-15T00:59:22.987+0000] {processor.py:161} INFO - Started process (PID=655) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:59:22.988+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:59:22.991+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:59:22.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:59:23.066+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:59:23.078+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:59:23.078+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:59:23.087+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:59:23.087+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:59:23.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.112 seconds
+[2024-11-15T00:59:53.433+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:59:53.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T00:59:53.436+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:59:53.436+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:59:53.513+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T00:59:53.525+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:59:53.525+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T00:59:53.534+0000] {logging_mixin.py:188} INFO - [2024-11-15T00:59:53.534+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T00:59:53.543+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T01:00:23.795+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:00:23.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:00:23.799+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:00:23.799+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:00:23.870+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:00:23.882+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:00:23.882+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:00:23.892+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:00:23.892+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:00:23.899+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.108 seconds
+[2024-11-15T01:00:54.187+0000] {processor.py:161} INFO - Started process (PID=703) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:00:54.187+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:00:54.189+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:00:54.188+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:00:54.263+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:00:54.277+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:00:54.277+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:00:54.287+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:00:54.287+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:00:54.295+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T01:01:24.553+0000] {processor.py:161} INFO - Started process (PID=719) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:01:24.554+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:01:24.558+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:01:24.558+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:01:24.631+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:01:24.644+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:01:24.644+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:01:24.654+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:01:24.653+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:01:24.661+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T01:01:54.984+0000] {processor.py:161} INFO - Started process (PID=735) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:01:54.987+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:01:54.990+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:01:54.990+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:01:55.062+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:01:55.074+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:01:55.074+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:01:55.083+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:01:55.083+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:01:55.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.112 seconds
+[2024-11-15T01:02:25.384+0000] {processor.py:161} INFO - Started process (PID=751) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:02:25.385+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:02:25.386+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:02:25.386+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:02:25.463+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:02:25.475+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:02:25.475+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:02:25.484+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:02:25.484+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:02:25.492+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.112 seconds
+[2024-11-15T01:02:55.818+0000] {processor.py:161} INFO - Started process (PID=773) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:02:55.821+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:02:55.823+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:02:55.822+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:02:55.895+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:02:55.908+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:02:55.907+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:02:55.918+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:02:55.918+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:02:55.927+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.114 seconds
+[2024-11-15T01:03:26.217+0000] {processor.py:161} INFO - Started process (PID=789) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:03:26.218+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:03:26.219+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:03:26.219+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:03:26.293+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:03:26.307+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:03:26.307+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:03:26.318+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:03:26.318+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:03:26.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.113 seconds
+[2024-11-15T01:03:56.632+0000] {processor.py:161} INFO - Started process (PID=805) to work on /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:03:56.634+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/yfinance_to_snowflake.py for tasks to queue
+[2024-11-15T01:03:56.636+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:03:56.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:03:56.710+0000] {processor.py:840} INFO - DAG(s) 'YfinanceToSnowflake' retrieved from /opt/airflow/dags/yfinance_to_snowflake.py
+[2024-11-15T01:03:56.722+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:03:56.722+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-15T01:03:56.731+0000] {logging_mixin.py:188} INFO - [2024-11-15T01:03:56.731+0000] {dag.py:3954} INFO - Setting next_dagrun for YfinanceToSnowflake to 2024-11-13 02:30:00+00:00, run_after=2024-11-14 02:30:00+00:00
+[2024-11-15T01:03:56.738+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/yfinance_to_snowflake.py took 0.111 seconds

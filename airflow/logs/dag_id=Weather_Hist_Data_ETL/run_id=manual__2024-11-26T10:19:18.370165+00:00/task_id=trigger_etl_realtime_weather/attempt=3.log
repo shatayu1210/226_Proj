@@ -1,0 +1,19 @@
+[2024-11-26T19:43:48.269+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-26T19:43:48.276+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.trigger_etl_realtime_weather manual__2024-11-26T10:19:18.370165+00:00 [queued]>
+[2024-11-26T19:43:48.281+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.trigger_etl_realtime_weather manual__2024-11-26T10:19:18.370165+00:00 [queued]>
+[2024-11-26T19:43:48.281+0000] {taskinstance.py:2306} INFO - Starting attempt 3 of 4
+[2024-11-26T19:43:48.287+0000] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_etl_realtime_weather> on 2024-11-26 10:19:18.370165+00:00
+[2024-11-26T19:43:48.291+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=21327) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T19:43:48.292+0000] {standard_task_runner.py:63} INFO - Started process 21330 to run task
+[2024-11-26T19:43:48.292+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Weather_Hist_Data_ETL', 'trigger_etl_realtime_weather', 'manual__2024-11-26T10:19:18.370165+00:00', '--job-id', '238', '--raw', '--subdir', 'DAGS_FOLDER/ETL_weather_historical.py', '--cfg-path', '/tmp/tmpppopo0n_']
+[2024-11-26T19:43:48.293+0000] {standard_task_runner.py:91} INFO - Job 238: Subtask trigger_etl_realtime_weather
+[2024-11-26T19:43:48.317+0000] {task_command.py:426} INFO - Running <TaskInstance: Weather_Hist_Data_ETL.trigger_etl_realtime_weather manual__2024-11-26T10:19:18.370165+00:00 [running]> on host 5de3b6ca18a7
+[2024-11-26T19:43:48.381+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Weather_Hist_Data_ETL' AIRFLOW_CTX_TASK_ID='trigger_etl_realtime_weather' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T10:19:18.370165+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T10:19:18.370165+00:00'
+[2024-11-26T19:43:48.384+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-26T19:43:48.436+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 19:43:48.384707+00:00 to become allowed state ['success'] ...
+[2024-11-26T19:44:48.469+0000] {trigger_dagrun.py:235} INFO - Weather_Realtime_Data_ETL finished with allowed state success
+[2024-11-26T19:44:48.472+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-26T19:44:48.486+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Weather_Hist_Data_ETL, task_id=trigger_etl_realtime_weather, run_id=manual__2024-11-26T10:19:18.370165+00:00, execution_date=20241126T101918, start_date=20241126T194348, end_date=20241126T194448
+[2024-11-26T19:44:48.523+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-26T19:44:48.546+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T19:44:48.548+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

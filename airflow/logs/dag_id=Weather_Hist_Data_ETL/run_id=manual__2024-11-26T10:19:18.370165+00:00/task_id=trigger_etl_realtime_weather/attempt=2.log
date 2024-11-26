@@ -1,0 +1,131 @@
+[2024-11-26T10:30:29.400+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-26T10:30:29.410+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.trigger_etl_realtime_weather manual__2024-11-26T10:19:18.370165+00:00 [queued]>
+[2024-11-26T10:30:29.414+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.trigger_etl_realtime_weather manual__2024-11-26T10:19:18.370165+00:00 [queued]>
+[2024-11-26T10:30:29.414+0000] {taskinstance.py:2306} INFO - Starting attempt 2 of 2
+[2024-11-26T10:30:29.420+0000] {taskinstance.py:2330} INFO - Executing <Task(TriggerDagRunOperator): trigger_etl_realtime_weather> on 2024-11-26 10:19:18.370165+00:00
+[2024-11-26T10:30:29.427+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=5989) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T10:30:29.428+0000] {standard_task_runner.py:63} INFO - Started process 5992 to run task
+[2024-11-26T10:30:29.426+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Weather_Hist_Data_ETL', 'trigger_etl_realtime_weather', 'manual__2024-11-26T10:19:18.370165+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/ETL_weather_historical.py', '--cfg-path', '/tmp/tmp18l0s87d']
+[2024-11-26T10:30:29.429+0000] {standard_task_runner.py:91} INFO - Job 184: Subtask trigger_etl_realtime_weather
+[2024-11-26T10:30:29.454+0000] {task_command.py:426} INFO - Running <TaskInstance: Weather_Hist_Data_ETL.trigger_etl_realtime_weather manual__2024-11-26T10:19:18.370165+00:00 [running]> on host 5de3b6ca18a7
+[2024-11-26T10:30:29.497+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Weather_Hist_Data_ETL' AIRFLOW_CTX_TASK_ID='trigger_etl_realtime_weather' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T10:19:18.370165+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T10:19:18.370165+00:00'
+[2024-11-26T10:30:29.498+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-26T10:30:29.528+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 10:30:29.498580+00:00 to become allowed state ['success'] ...
+[2024-11-26T10:31:29.560+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 10:30:29.498580+00:00 to become allowed state ['success'] ...
+[2024-11-26T10:32:29.598+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 10:30:29.498580+00:00 to become allowed state ['success'] ...
+[2024-11-26T10:33:29.620+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 10:30:29.498580+00:00 to become allowed state ['success'] ...
+[2024-11-26T10:34:29.647+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 10:30:29.498580+00:00 to become allowed state ['success'] ...
+[2024-11-26T10:35:29.708+0000] {trigger_dagrun.py:222} INFO - Waiting for Weather_Realtime_Data_ETL on 2024-11-26 10:30:29.498580+00:00 to become allowed state ['success'] ...
+[2024-11-26T10:36:29.743+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-26T10:36:29.761+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/trigger_dagrun.py", line 233, in execute
+    raise AirflowException(f"{self.trigger_dag_id} failed with failed states {state}")
+airflow.exceptions.AirflowException: Weather_Realtime_Data_ETL failed with failed states failed
+[2024-11-26T10:36:29.769+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=Weather_Hist_Data_ETL, task_id=trigger_etl_realtime_weather, run_id=manual__2024-11-26T10:19:18.370165+00:00, execution_date=20241126T101918, start_date=20241126T103029, end_date=20241126T103629
+[2024-11-26T10:36:29.791+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/utils/email.py:154 RemovedInAirflow3Warning: Fetching SMTP credentials from configuration variables will be deprecated in a future release. Please set credentials using a connection instead.
+[2024-11-26T10:36:29.792+0000] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-11-26T10:36:29.792+0000] {email.py:271} INFO - Email alerting: attempt 1
+[2024-11-26T10:36:29.796+0000] {configuration.py:1050} WARNING - section/key [smtp/smtp_user] not found in config
+[2024-11-26T10:36:29.796+0000] {email.py:271} INFO - Email alerting: attempt 1
+[2024-11-26T10:36:29.797+0000] {taskinstance.py:879} ERROR - Failed to send email to: ['shatayu.thakur@sjsu.edu']
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2479, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2676, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 2701, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/trigger_dagrun.py", line 233, in execute
+    raise AirflowException(f"{self.trigger_dag_id} failed with failed states {state}")
+airflow.exceptions.AirflowException: Weather_Realtime_Data_ETL failed with failed states failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1063, in _email_alert
+    send_email(task.email, subject, html_content)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 273, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 317, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 877, in _handle_failure
+    task_instance.email_alert(error, failure_context["task"])
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3163, in email_alert
+    _email_alert(task_instance=self, exception=exception, task=task)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 1065, in _email_alert
+    send_email(task.email, subject, html_content_err)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 80, in send_email
+    return backend(
+           ^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 154, in send_email_smtp
+    send_mime_email(e_from=mail_from, e_to=recipients, mime_msg=msg, conn_id=conn_id, dryrun=dryrun)
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 273, in send_mime_email
+    smtp_conn = _get_smtp_connection(smtp_host, smtp_port, smtp_timeout, smtp_ssl)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/email.py", line 317, in _get_smtp_connection
+    return smtplib.SMTP(host=host, port=port, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/local/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+[2024-11-26T10:36:29.805+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 184 for task trigger_etl_realtime_weather (Weather_Realtime_Data_ETL failed with failed states failed; 5992)
+[2024-11-26T10:36:29.814+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-11-26T10:36:29.826+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T10:36:29.826+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
