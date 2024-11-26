@@ -8389,3 +8389,73 @@ NameError: name 'load_citibike_data' is not defined. Did you mean: 'extract_citi
 [2024-11-26T19:55:04.164+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:55:04.164+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-11-26T19:55:04.178+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:55:04.177+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
 [2024-11-26T19:55:04.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.082 seconds
+[2024-11-26T19:55:34.545+0000] {processor.py:161} INFO - Started process (PID=21922) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:55:34.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T19:55:34.550+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:55:34.549+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:55:34.559+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:55:34.573+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:55:34.573+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T19:55:34.593+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:55:34.593+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T19:55:34.606+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.068 seconds
+[2024-11-26T19:56:04.924+0000] {processor.py:161} INFO - Started process (PID=21943) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:56:04.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T19:56:04.926+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:56:04.925+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:56:04.938+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:56:04.953+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:56:04.952+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T19:56:04.965+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:56:04.965+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T19:56:04.974+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.056 seconds
+[2024-11-26T19:56:35.258+0000] {processor.py:161} INFO - Started process (PID=21964) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:56:35.259+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T19:56:35.260+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:56:35.260+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:56:35.272+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:56:35.288+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:56:35.288+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T19:56:35.304+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:56:35.303+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T19:56:35.314+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.061 seconds
+[2024-11-26T19:57:05.391+0000] {processor.py:161} INFO - Started process (PID=22073) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:57:05.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T19:57:05.396+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:57:05.395+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:57:05.426+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T19:57:05.450+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:57:05.450+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T19:57:05.463+0000] {logging_mixin.py:188} INFO - [2024-11-26T19:57:05.463+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T19:57:05.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.087 seconds
+[2024-11-26T20:26:27.917+0000] {processor.py:161} INFO - Started process (PID=22444) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:26:27.919+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T20:26:27.920+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:26:27.920+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:26:27.946+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:26:27.975+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:26:27.974+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T20:26:28.017+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:26:28.016+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T20:26:28.033+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.120 seconds
+[2024-11-26T20:26:58.487+0000] {processor.py:161} INFO - Started process (PID=22465) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:26:58.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T20:26:58.489+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:26:58.489+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:26:58.500+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:26:58.515+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:26:58.514+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T20:26:58.529+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:26:58.529+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T20:26:58.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.063 seconds
+[2024-11-26T20:27:28.969+0000] {processor.py:161} INFO - Started process (PID=22486) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:27:28.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T20:27:28.970+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:27:28.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:27:28.979+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:27:28.992+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:27:28.992+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T20:27:29.003+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:27:29.003+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T20:27:29.018+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.057 seconds
+[2024-11-26T20:27:59.376+0000] {processor.py:161} INFO - Started process (PID=22540) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:27:59.376+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T20:27:59.377+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:27:59.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:27:59.397+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:27:59.426+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:27:59.426+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T20:27:59.460+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:27:59.460+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T20:27:59.476+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.107 seconds
+[2024-11-26T20:28:29.780+0000] {processor.py:161} INFO - Started process (PID=22563) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:28:29.781+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T20:28:29.782+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:28:29.781+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:28:29.794+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:28:29.813+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:28:29.813+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T20:28:29.831+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:28:29.831+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T20:28:29.854+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.081 seconds
+[2024-11-26T20:29:00.197+0000] {processor.py:161} INFO - Started process (PID=22583) to work on /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:29:00.199+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_citibike.py for tasks to queue
+[2024-11-26T20:29:00.199+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:29:00.199+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:29:00.213+0000] {processor.py:840} INFO - DAG(s) 'Citibike_Hist_Data_ETL' retrieved from /opt/airflow/dags/ETL_citibike.py
+[2024-11-26T20:29:00.232+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:29:00.232+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-26T20:29:00.248+0000] {logging_mixin.py:188} INFO - [2024-11-26T20:29:00.248+0000] {dag.py:3954} INFO - Setting next_dagrun for Citibike_Hist_Data_ETL to 2024-11-25 21:30:00+00:00, run_after=2024-11-26 21:30:00+00:00
+[2024-11-26T20:29:00.261+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_citibike.py took 0.069 seconds

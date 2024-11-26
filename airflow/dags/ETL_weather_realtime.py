@@ -189,10 +189,11 @@ with DAG(
         "retries": 1,
         "retry_delay": timedelta(minutes=5),
     },
+    description='Run realtime jersey city weather fetch every 30 minutes',
+    schedule_interval='*/30 * * * *',
     start_date=datetime(2024, 11, 20),
     catchup=False,
     tags=["ETL","Realtime"],
-    schedule_interval=None,  # This will be called by Weather_Hist_Data_ETL
 ) as dag:
     
     raw_data_table = "dev.raw_data.weather_current"

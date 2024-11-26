@@ -281,13 +281,6 @@ with DAG(
 
     # Load Data (depends on transformed data)
     load_task = load_weather_hist_data(raw_data_table, transformed_df)
-
-    trigger_etl_realtime_weather_task = TriggerDagRunOperator(
-        task_id='trigger_etl_realtime_weather',
-        trigger_dag_id='Weather_Realtime_Data_ETL',
-        conf={},  # Pass any configuration needed by the triggered DAG
-        wait_for_completion=True,  # Optionally wait for the triggered DAG to complete
-    )
     
     # Defining sequence for ETL
-    extracted_df >> transformed_df >> load_task >> trigger_etl_realtime_weather_task
+    extracted_df >> transformed_df >> load_task

@@ -37573,3 +37573,105 @@ File Path                                    PID    Runtime      # DAGs    # Err
 /opt/airflow/dags/ETL_citibike.py                                     1           0  0.12s           2024-11-26T19:55:04
 /opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.07s           2024-11-26T19:54:41
 ================================================================================
+[2024-11-26T19:55:38.573+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.22s           2024-11-26T19:55:27
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.09s           2024-11-26T19:55:12
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.08s           2024-11-26T19:55:34
+================================================================================
+[2024-11-26T19:56:08.942+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.15s           2024-11-26T19:55:57
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.07s           2024-11-26T19:56:04
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.07s           2024-11-26T19:55:42
+================================================================================
+[2024-11-26T19:56:39.294+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.26s           2024-11-26T19:56:28
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.08s           2024-11-26T19:56:35
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.07s           2024-11-26T19:56:13
+================================================================================
+[2024-11-26T19:57:09.363+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.20s           2024-11-26T19:56:43
+/opt/airflow/dags/ETL_weather_historical.py  22236  0.00s             1           0  0.12s           2024-11-26T19:57:09
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.10s           2024-11-26T19:57:05
+================================================================================
+[2024-11-26T20:26:27.883+0000] {manager.py:737} INFO - Searching for files in /opt/airflow/dags
+[2024-11-26T20:26:27.889+0000] {manager.py:740} INFO - There are 3 files in /opt/airflow/dags
+[2024-11-26T20:26:53.278+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  1753.53s        2024-11-26T20:26:27
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.14s           2024-11-26T20:26:28
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.13s           2024-11-26T20:26:28
+================================================================================
+[2024-11-26T20:27:23.800+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.30s           2024-11-26T20:26:58
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.12s           2024-11-26T20:26:58
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.08s           2024-11-26T20:26:58
+================================================================================
+[2024-11-26T20:27:54.303+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.19s           2024-11-26T20:27:29
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.13s           2024-11-26T20:27:50
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.07s           2024-11-26T20:27:29
+================================================================================
+[2024-11-26T20:28:24.716+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.20s           2024-11-26T20:27:59
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.15s           2024-11-26T20:28:20
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.12s           2024-11-26T20:27:59
+================================================================================
+[2024-11-26T20:28:55.130+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.20s           2024-11-26T20:28:29
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.16s           2024-11-26T20:28:51
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.10s           2024-11-26T20:28:29
+================================================================================
+[2024-11-26T20:29:25.522+0000] {manager.py:878} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/ETL_weather_historical.py                           1           0  0.22s           2024-11-26T20:29:00
+/opt/airflow/dags/ETL_weather_realtime.py                             1           0  0.10s           2024-11-26T20:29:21
+/opt/airflow/dags/ETL_citibike.py                                     1           0  0.08s           2024-11-26T20:29:00
+================================================================================
