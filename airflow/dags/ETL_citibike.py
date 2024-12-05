@@ -35,8 +35,10 @@ def extract_citibike_data(start_year, start_month, end_year, end_month):
     Save this dataframe as an intermediate dataframe to avoid processing overhead, since it consists of over 3M records.
     
     Args:
-        start_year (int): The start year (e.g., 2020).
+        start_year (int): The start year (e.g., 2021).
+        start_month (int): The start month (e.g., 10).
         end_year (int): The end year (e.g., 2024).
+        end_month (int): The end month (e.g., 10).
     """
     base_url = "https://s3.amazonaws.com/tripdata/"
     all_data = []  # List to store DataFrames for each file
