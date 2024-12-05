@@ -205,6 +205,13 @@ with DAG(
 
     # Load Data (depends on transformed data)
     load_task = load_weather_current_data(raw_data_table, transformed_df)
+    
+    trigger_elt_task = TriggerDagRunOperator(
+        task_id='trigger_elt',
+        trigger_dag_id='ELT_dbt',
+        conf={},  # Pass any configuration needed by the triggered DAG
+        wait_for_completion=True,  # Optionally wait for the triggered DAG to complete
+    )
 
     # Defining sequence for ETL
-    extracted_df >> transformed_df >> load_task
+    extracted_df >> transformed_df >> load_task >> trigger_elt_task

@@ -1,0 +1,140 @@
+[2024-11-28T00:21:55.000+0000] {processor.py:161} INFO - Started process (PID=40730) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T00:21:55.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T00:21:55.012+0000] {logging_mixin.py:188} INFO - [2024-11-28T00:21:55.011+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T00:21:55.065+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T00:21:55.103+0000] {logging_mixin.py:188} INFO - [2024-11-28T00:21:55.103+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T00:21:55.151+0000] {logging_mixin.py:188} INFO - [2024-11-28T00:21:55.151+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 00:00:00+00:00, run_after=2024-11-28 00:30:00+00:00
+[2024-11-28T00:21:55.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.201 seconds
+[2024-11-28T01:39:41.164+0000] {processor.py:161} INFO - Started process (PID=40763) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:39:41.166+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:39:41.169+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:39:41.168+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:39:41.220+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:39:41.255+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:39:41.255+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:39:41.313+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:39:41.313+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:39:41.346+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.196 seconds
+[2024-11-28T01:57:18.346+0000] {processor.py:161} INFO - Started process (PID=40804) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:57:18.348+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:57:18.349+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:57:18.348+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:57:18.375+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:57:18.398+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:57:18.398+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:57:18.421+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:57:18.421+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:57:18.438+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.103 seconds
+[2024-11-28T01:57:48.844+0000] {processor.py:161} INFO - Started process (PID=40833) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:57:48.845+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:57:48.845+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:57:48.845+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:57:48.858+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:57:48.872+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:57:48.872+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:57:48.884+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:57:48.884+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:57:48.894+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.056 seconds
+[2024-11-28T01:58:19.299+0000] {processor.py:161} INFO - Started process (PID=40854) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:58:19.300+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:58:19.301+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:58:19.301+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:58:19.314+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:58:19.328+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:58:19.328+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:58:19.341+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:58:19.341+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:58:19.354+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.062 seconds
+[2024-11-28T01:58:49.774+0000] {processor.py:161} INFO - Started process (PID=40875) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:58:49.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:58:49.777+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:58:49.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:58:49.811+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:58:49.837+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:58:49.837+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:58:49.863+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:58:49.863+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:58:49.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.114 seconds
+[2024-11-28T01:59:20.261+0000] {processor.py:161} INFO - Started process (PID=40896) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:59:20.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:59:20.263+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:59:20.263+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:59:20.276+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:59:20.294+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:59:20.294+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:59:20.309+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:59:20.309+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:59:20.320+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.063 seconds
+[2024-11-28T01:59:50.731+0000] {processor.py:161} INFO - Started process (PID=40917) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:59:50.732+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T01:59:50.733+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:59:50.732+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:59:50.746+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T01:59:50.766+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:59:50.766+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T01:59:50.781+0000] {logging_mixin.py:188} INFO - [2024-11-28T01:59:50.781+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 01:30:00+00:00, run_after=2024-11-28 02:00:00+00:00
+[2024-11-28T01:59:50.790+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.064 seconds
+[2024-11-28T02:00:21.192+0000] {processor.py:161} INFO - Started process (PID=40942) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:00:21.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:00:21.194+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:00:21.193+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:00:21.205+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:00:21.220+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:00:21.220+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:00:21.236+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:00:21.235+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:00:21.247+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.062 seconds
+[2024-11-28T02:00:51.622+0000] {processor.py:161} INFO - Started process (PID=40963) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:00:51.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:00:51.624+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:00:51.623+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:00:51.638+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:00:51.652+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:00:51.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:00:51.664+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:00:51.664+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:00:51.673+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.055 seconds
+[2024-11-28T02:01:22.086+0000] {processor.py:161} INFO - Started process (PID=40984) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:01:22.086+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:01:22.087+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:01:22.087+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:01:22.099+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:01:22.111+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:01:22.111+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:01:22.124+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:01:22.123+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:01:22.132+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.051 seconds
+[2024-11-28T02:01:52.512+0000] {processor.py:161} INFO - Started process (PID=41005) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:01:52.513+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:01:52.514+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:01:52.514+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:01:52.527+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:01:52.540+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:01:52.540+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:01:52.553+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:01:52.553+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:01:52.561+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.056 seconds
+[2024-11-28T02:02:23.012+0000] {processor.py:161} INFO - Started process (PID=41026) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:02:23.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:02:23.013+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:02:23.013+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:02:23.028+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:02:23.041+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:02:23.041+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:02:23.053+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:02:23.053+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:02:23.064+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.058 seconds
+[2024-11-28T02:02:53.473+0000] {processor.py:161} INFO - Started process (PID=41047) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:02:53.474+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:02:53.475+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:02:53.474+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:02:53.493+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:02:53.512+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:02:53.512+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:02:53.533+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:02:53.533+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:02:53.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.082 seconds
+[2024-11-28T02:03:23.969+0000] {processor.py:161} INFO - Started process (PID=41068) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:03:23.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:03:23.971+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:03:23.971+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:03:23.985+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:03:24.005+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:03:24.005+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:03:24.021+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:03:24.020+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:03:24.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.066 seconds
+[2024-11-28T02:03:54.407+0000] {processor.py:161} INFO - Started process (PID=41088) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:03:54.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:03:54.408+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:03:54.408+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:03:54.419+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:03:54.434+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:03:54.434+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:03:54.447+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:03:54.446+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:03:54.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.060 seconds
+[2024-11-28T02:04:24.767+0000] {processor.py:161} INFO - Started process (PID=41109) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:04:24.768+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:04:24.768+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:04:24.768+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:04:24.783+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:04:24.795+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:04:24.795+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:04:24.807+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:04:24.806+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:04:24.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.056 seconds
+[2024-11-28T02:04:54.880+0000] {processor.py:161} INFO - Started process (PID=41130) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:04:54.881+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:04:54.882+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:04:54.881+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:04:54.898+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:04:54.917+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:04:54.917+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:04:54.934+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:04:54.934+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:04:54.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.071 seconds
+[2024-11-28T02:05:25.416+0000] {processor.py:161} INFO - Started process (PID=41177) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:05:25.418+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:05:25.421+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:05:25.421+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:05:25.440+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:05:25.462+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:05:25.461+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:05:25.482+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:05:25.482+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:05:25.497+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.090 seconds
+[2024-11-28T02:05:55.890+0000] {processor.py:161} INFO - Started process (PID=41198) to work on /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:05:55.891+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/ETL_weather_realtime.py for tasks to queue
+[2024-11-28T02:05:55.892+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:05:55.892+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:05:55.910+0000] {processor.py:840} INFO - DAG(s) 'Weather_Realtime_Data_ETL' retrieved from /opt/airflow/dags/ETL_weather_realtime.py
+[2024-11-28T02:05:55.925+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:05:55.925+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-28T02:05:55.940+0000] {logging_mixin.py:188} INFO - [2024-11-28T02:05:55.940+0000] {dag.py:3954} INFO - Setting next_dagrun for Weather_Realtime_Data_ETL to 2024-11-28 02:00:00+00:00, run_after=2024-11-28 02:30:00+00:00
+[2024-11-28T02:05:55.952+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/ETL_weather_realtime.py took 0.068 seconds

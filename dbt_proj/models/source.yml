@@ -1,0 +1,28 @@
+sources:
+  - name: raw_data
+    database: dev
+    schema: raw_data
+    description: "Schema which stores raw tables (ETL)"
+    tables:
+      - name: citibike_historical
+        identifier: citibike_historical
+        description: "ETL Citibike Historical Data. Columns: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng,member_casual, start_year, start_month, start_day, duration"
+      - name: weather_current
+        identifier: weather_current
+        description: "ETL Current Weather Data. Columns: date, temp, temp_feel, humidity, rain, year, month, day, hour"
+      - name: weather_historical
+        identifier: weather_historical
+        description: "ETL Historical Weather Data. Columns: date, temp, temp_feel, humidity, rain, year, month, day, hour, day_temp_max, day_temp_min"
+
+
+  - name: analytics
+    database: dev
+    schema: analytics
+    description: "Schema which stores analytics tables (ELT)"
+    tables:
+      - name: citibike_historical_summary
+        identifier: citibike_historical_summary
+        description: "Summarized Monthly Historical Citibike Ride Data. Columns: year, month, total_rides, member_rides, casual_rides, electric_bike_rides, docked_bike_rides, classic_bike_rides, average_duration"
+      - name: weather_current_summary
+        identifier: weather_current_summary
+        description: "Current Weather Summary with Calculated Comfort Index Field. Columns: date, temp, temp_feel, humidity, rain, year, month, day, hour, comfort_index"

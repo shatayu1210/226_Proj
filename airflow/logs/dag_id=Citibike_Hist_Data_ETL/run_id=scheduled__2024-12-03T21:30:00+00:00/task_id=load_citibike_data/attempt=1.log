@@ -1,0 +1,23 @@
+[2024-12-05T17:28:45.685+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-05T17:28:45.692+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Citibike_Hist_Data_ETL.load_citibike_data scheduled__2024-12-03T21:30:00+00:00 [queued]>
+[2024-12-05T17:28:45.696+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Citibike_Hist_Data_ETL.load_citibike_data scheduled__2024-12-03T21:30:00+00:00 [queued]>
+[2024-12-05T17:28:45.696+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-12-05T17:28:45.701+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load_citibike_data> on 2024-12-03 21:30:00+00:00
+[2024-12-05T17:28:45.706+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=364) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-05T17:28:45.705+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Citibike_Hist_Data_ETL', 'load_citibike_data', 'scheduled__2024-12-03T21:30:00+00:00', '--job-id', '448', '--raw', '--subdir', 'DAGS_FOLDER/ETL_citibike.py', '--cfg-path', '/tmp/tmp5bq8gojz']
+[2024-12-05T17:28:45.707+0000] {standard_task_runner.py:91} INFO - Job 448: Subtask load_citibike_data
+[2024-12-05T17:28:45.707+0000] {standard_task_runner.py:63} INFO - Started process 367 to run task
+[2024-12-05T17:28:45.731+0000] {task_command.py:426} INFO - Running <TaskInstance: Citibike_Hist_Data_ETL.load_citibike_data scheduled__2024-12-03T21:30:00+00:00 [running]> on host 5de3b6ca18a7
+[2024-12-05T17:28:45.771+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Citibike_Hist_Data_ETL' AIRFLOW_CTX_TASK_ID='load_citibike_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T21:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-12-03T21:30:00+00:00'
+[2024-12-05T17:28:45.772+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-05T17:28:45.777+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-12-05T17:28:45.778+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-6.10.11-linuxkit-aarch64-with-glibc2.36
+[2024-12-05T17:28:45.778+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-12-05T17:28:46.426+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-12-05T17:28:52.090+0000] {logging_mixin.py:188} INFO - Row count for data to be pushed:  2982715
+[2024-12-05T17:28:52.217+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-12-05T17:28:52.342+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-12-05T17:28:52.608+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-12-05T17:28:52.608+0000] {logging_mixin.py:188} INFO - File format created successfully.
+[2024-12-05T17:28:52.879+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-12-05T17:28:52.880+0000] {logging_mixin.py:188} INFO - Stage created successfully.

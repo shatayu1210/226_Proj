@@ -215,17 +215,17 @@ def load_weather_hist_data(table, transformed_data):
         # Step 5: Create or replace table
         create_table_sql = f"""
             CREATE OR REPLACE TABLE {table} (
-            date TIMESTAMP_NTZ(9) PRIMARY KEY,  -- Timestamp with no time zone and 9-digit precision; set as primary key
-            temp FLOAT,                         -- Temperature value as a float
-            temp_feel FLOAT,                    -- Feels-like temperature value as a float
-            humidity FLOAT,                     -- Humidity percentage as a float
-            rain FLOAT,                         -- Rain measurement as a float (could be 0 or a value)
-            year INT,                           -- Year as an integer
-            month INT,                          -- Month as an integer
-            day INT,                            -- Day of the month as an integer
-            hour INT,                           -- Hour of the day as an integer (0-23)
-            day_temp_max FLOAT,                 -- Maximum temperature for the day
-            day_temp_min FLOAT                  -- Minimum temperature for the day
+            date TIMESTAMP_NTZ(9),          -- Timestamp with no time zone and 9-digit precision
+            temp FLOAT,                     -- Temperature value as a float
+            temp_feel FLOAT,                -- Feels-like temperature value as a float
+            humidity FLOAT,                 -- Humidity percentage as a float
+            rain FLOAT,                     -- Rain measurement as a float (could be 0 or a value)
+            year INT,                       -- Year as an integer
+            month INT,                      -- Month as an integer
+            day INT,                        -- Day of the month as an integer
+            hour INT,                       -- Hour of the day as an integer (0-23)
+            day_temp_max FLOAT,             -- Maximum temperature for the day
+            day_temp_min FLOAT              -- Minimum temperature for the day
         );
         """
         cursor.execute(create_table_sql)  # Executing table creation

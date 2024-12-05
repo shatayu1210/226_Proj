@@ -1,0 +1,38 @@
+[2024-11-26T22:11:21.386+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-26T22:11:21.395+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.load_weather_hist_data manual__2024-11-26T22:11:18.123679+00:00 [queued]>
+[2024-11-26T22:11:21.400+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Weather_Hist_Data_ETL.load_weather_hist_data manual__2024-11-26T22:11:18.123679+00:00 [queued]>
+[2024-11-26T22:11:21.400+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-26T22:11:21.406+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): load_weather_hist_data> on 2024-11-26 22:11:18.123679+00:00
+[2024-11-26T22:11:21.412+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=22960) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-26T22:11:21.413+0000] {standard_task_runner.py:63} INFO - Started process 22963 to run task
+[2024-11-26T22:11:21.412+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Weather_Hist_Data_ETL', 'load_weather_hist_data', 'manual__2024-11-26T22:11:18.123679+00:00', '--job-id', '271', '--raw', '--subdir', 'DAGS_FOLDER/ETL_weather_historical.py', '--cfg-path', '/tmp/tmpa8rg2hnw']
+[2024-11-26T22:11:21.414+0000] {standard_task_runner.py:91} INFO - Job 271: Subtask load_weather_hist_data
+[2024-11-26T22:11:21.435+0000] {task_command.py:426} INFO - Running <TaskInstance: Weather_Hist_Data_ETL.load_weather_hist_data manual__2024-11-26T22:11:18.123679+00:00 [running]> on host 5de3b6ca18a7
+[2024-11-26T22:11:21.521+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Weather_Hist_Data_ETL' AIRFLOW_CTX_TASK_ID='load_weather_hist_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-26T22:11:18.123679+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-26T22:11:18.123679+00:00'
+[2024-11-26T22:11:21.521+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-26T22:11:21.526+0000] {base.py:84} INFO - Using connection ID 'snowflake_conn' for task execution.
+[2024-11-26T22:11:21.527+0000] {connection.py:399} INFO - Snowflake Connector for Python Version: 3.10.0, Python Version: 3.12.3, Platform: Linux-6.10.11-linuxkit-aarch64-with-glibc2.36
+[2024-11-26T22:11:21.528+0000] {connection.py:1239} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2024-11-26T22:11:22.496+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:22.496+0000] {logging_mixin.py:188} INFO - Row count for data to be pushed:  27048
+[2024-11-26T22:11:22.691+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:22.912+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:23.180+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:23.181+0000] {logging_mixin.py:188} INFO - File format created successfully.
+[2024-11-26T22:11:23.408+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:23.409+0000] {logging_mixin.py:188} INFO - Stage created successfully.
+[2024-11-26T22:11:25.689+0000] {logging_mixin.py:188} INFO - Data uploaded to stage successfully.
+[2024-11-26T22:11:26.247+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:26.249+0000] {logging_mixin.py:188} INFO - Target Table Initialized and Ready to Store Historical Weather Data from ETL
+[2024-11-26T22:11:27.403+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:27.404+0000] {logging_mixin.py:188} INFO - Data loaded successfully into Snowflake table.
+[2024-11-26T22:11:27.539+0000] {cursor.py:1149} INFO - Number of results in first chunk: 1
+[2024-11-26T22:11:27.539+0000] {logging_mixin.py:188} INFO - Transaction committed. Data load complete.
+[2024-11-26T22:11:27.540+0000] {connection.py:762} INFO - closed
+[2024-11-26T22:11:27.629+0000] {connection.py:768} INFO - No async queries seem to be running, deleting session
+[2024-11-26T22:11:27.728+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-11-26T22:11:27.730+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-26T22:11:27.742+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Weather_Hist_Data_ETL, task_id=load_weather_hist_data, run_id=manual__2024-11-26T22:11:18.123679+00:00, execution_date=20241126T221118, start_date=20241126T221121, end_date=20241126T221127
+[2024-11-26T22:11:27.767+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-26T22:11:27.781+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T22:11:27.782+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

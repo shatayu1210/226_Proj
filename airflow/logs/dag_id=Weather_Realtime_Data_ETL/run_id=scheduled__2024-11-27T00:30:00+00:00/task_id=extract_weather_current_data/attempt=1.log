@@ -1,0 +1,23 @@
+[2024-11-27T01:00:00.684+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-11-27T01:00:00.692+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Weather_Realtime_Data_ETL.extract_weather_current_data scheduled__2024-11-27T00:30:00+00:00 [queued]>
+[2024-11-27T01:00:00.695+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Weather_Realtime_Data_ETL.extract_weather_current_data scheduled__2024-11-27T00:30:00+00:00 [queued]>
+[2024-11-27T01:00:00.696+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 2
+[2024-11-27T01:00:00.701+0000] {taskinstance.py:2330} INFO - Executing <Task(_PythonDecoratedOperator): extract_weather_current_data> on 2024-11-27 00:30:00+00:00
+[2024-11-27T01:00:00.707+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=27452) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-11-27T01:00:00.708+0000] {standard_task_runner.py:63} INFO - Started process 27455 to run task
+[2024-11-27T01:00:00.706+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'Weather_Realtime_Data_ETL', 'extract_weather_current_data', 'scheduled__2024-11-27T00:30:00+00:00', '--job-id', '287', '--raw', '--subdir', 'DAGS_FOLDER/ETL_weather_realtime.py', '--cfg-path', '/tmp/tmpi5qa87b7']
+[2024-11-27T01:00:00.710+0000] {standard_task_runner.py:91} INFO - Job 287: Subtask extract_weather_current_data
+[2024-11-27T01:00:00.743+0000] {task_command.py:426} INFO - Running <TaskInstance: Weather_Realtime_Data_ETL.extract_weather_current_data scheduled__2024-11-27T00:30:00+00:00 [running]> on host 5de3b6ca18a7
+[2024-11-27T01:00:00.800+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='shatayu.thakur@sjsu.edu' AIRFLOW_CTX_DAG_OWNER='Shatayu' AIRFLOW_CTX_DAG_ID='Weather_Realtime_Data_ETL' AIRFLOW_CTX_TASK_ID='extract_weather_current_data' AIRFLOW_CTX_EXECUTION_DATE='2024-11-27T00:30:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-11-27T00:30:00+00:00'
+[2024-11-27T01:00:00.801+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-11-27T01:00:01.962+0000] {logging_mixin.py:188} INFO - Raw Output in JSON {'location': {'name': 'Jersey City', 'region': 'New Jersey', 'country': 'United States of America', 'lat': 40.7281, 'lon': -74.0781, 'tz_id': 'America/New_York', 'localtime_epoch': 1732668535, 'localtime': '2024-11-26 19:48'}, 'current': {'last_updated_epoch': 1732668300, 'last_updated': '2024-11-26 19:45', 'temp_c': 12.2, 'temp_f': 54.0, 'is_day': 0, 'condition': {'text': 'Partly cloudy', 'icon': '//cdn.weatherapi.com/weather/64x64/night/116.png', 'code': 1003}, 'wind_mph': 11.0, 'wind_kph': 17.6, 'wind_degree': 318, 'wind_dir': 'NW', 'pressure_mb': 1014.0, 'pressure_in': 29.94, 'precip_mm': 0.0, 'precip_in': 0.0, 'humidity': 47, 'cloud': 25, 'feelslike_c': 10.4, 'feelslike_f': 50.6, 'windchill_c': 8.9, 'windchill_f': 48.0, 'heatindex_c': 10.7, 'heatindex_f': 51.3, 'dewpoint_c': 4.4, 'dewpoint_f': 40.0, 'vis_km': 16.0, 'vis_miles': 9.0, 'uv': 0.0, 'gust_mph': 15.4, 'gust_kph': 24.8}}
+[2024-11-27T01:00:01.970+0000] {logging_mixin.py:188} INFO - Current Data for Jersey City, New Jersey:
+[2024-11-27T01:00:01.981+0000] {logging_mixin.py:188} INFO -         last_updated  temp_f  feelslike_f  humidity  precip_mm
+0  2024-11-26 19:45    54.0         50.6        47        0.0
+[2024-11-27T01:00:01.982+0000] {python.py:237} INFO - Done. Returned value was:        last_updated  temp_f  feelslike_f  humidity  precip_mm
+0  2024-11-26 19:45    54.0         50.6        47        0.0
+[2024-11-27T01:00:01.986+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-27T01:00:02.031+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Weather_Realtime_Data_ETL, task_id=extract_weather_current_data, run_id=scheduled__2024-11-27T00:30:00+00:00, execution_date=20241127T003000, start_date=20241127T010000, end_date=20241127T010002
+[2024-11-27T01:00:02.060+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-27T01:00:02.072+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-27T01:00:02.073+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

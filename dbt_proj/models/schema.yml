@@ -1,0 +1,24 @@
+models:  
+ - name: citibike_historical_summary
+   description: Summarized Monthly Citibike Historical Summary
+   columns:
+    - name: year
+      description: Enforce all populated values for year column
+      data_tests:
+       - not_null
+    - name: month
+      description:  Enforce all populated values for month column
+      data_tests:
+       - not_null
+
+ - name: weather_current_summary
+   description: Summarized Weather Current Data with Comfort Index
+   columns:
+    - name: date
+      description: Enforce all populated values for date column
+      data_tests:
+       - not_null
+    - name: comfort_index
+      description:  Enforce all populated values for comfort_index column
+      data_tests:
+       - not_null

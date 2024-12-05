@@ -1,0 +1,44 @@
+[2024-12-05T20:03:19.618+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-05T20:03:19.634+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ELT_dbt.dbt_run manual__2024-12-05T20:03:06.405696+00:00 [queued]>
+[2024-12-05T20:03:19.638+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ELT_dbt.dbt_run manual__2024-12-05T20:03:06.405696+00:00 [queued]>
+[2024-12-05T20:03:19.638+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-05T20:03:19.644+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2024-12-05 20:03:06.405696+00:00
+[2024-12-05T20:03:19.648+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ELT_dbt', 'dbt_run', 'manual__2024-12-05T20:03:06.405696+00:00', '--job-id', '485', '--raw', '--subdir', 'DAGS_FOLDER/ELT_metrics.py', '--cfg-path', '/tmp/tmpihqclnmr']
+[2024-12-05T20:03:19.650+0000] {standard_task_runner.py:91} INFO - Job 485: Subtask dbt_run
+[2024-12-05T20:03:19.650+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=1635) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-05T20:03:19.650+0000] {standard_task_runner.py:63} INFO - Started process 1636 to run task
+[2024-12-05T20:03:19.676+0000] {task_command.py:426} INFO - Running <TaskInstance: ELT_dbt.dbt_run manual__2024-12-05T20:03:06.405696+00:00 [running]> on host 54099fe05abe
+[2024-12-05T20:03:19.720+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T20:03:06.405696+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T20:03:06.405696+00:00'
+[2024-12-05T20:03:19.721+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-05T20:03:19.728+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-05T20:03:19.729+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/dbt_proj --project-dir /opt/***/dbt_proj']
+[2024-12-05T20:03:19.729+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-05T20:03:19.729+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 234, in execute
+    result = self.subprocess_hook.run_command(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/hooks/subprocess.py", line 77, in run_command
+    self.sub_process = Popen(
+                       ^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1026, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.12/subprocess.py", line 1872, in _execute_child
+    env_list.append(k + b'=' + os.fsencode(v))
+                               ^^^^^^^^^^^^^^
+  File "<frozen os>", line 818, in fsencode
+TypeError: expected str, bytes or os.PathLike object, not list
+[2024-12-05T20:03:19.735+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=ELT_dbt, task_id=dbt_run, run_id=manual__2024-12-05T20:03:06.405696+00:00, execution_date=20241205T200306, start_date=20241205T200319, end_date=20241205T200319
+[2024-12-05T20:03:19.741+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 485 for task dbt_run (expected str, bytes or os.PathLike object, not list; 1636)
+[2024-12-05T20:03:19.750+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-12-05T20:03:19.762+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T20:03:19.764+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

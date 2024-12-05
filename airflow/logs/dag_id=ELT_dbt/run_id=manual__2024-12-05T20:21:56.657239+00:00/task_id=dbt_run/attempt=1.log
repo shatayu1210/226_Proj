@@ -1,0 +1,40 @@
+[2024-12-05T20:21:57.993+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-05T20:21:58.031+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ELT_dbt.dbt_run manual__2024-12-05T20:21:56.657239+00:00 [queued]>
+[2024-12-05T20:21:58.037+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ELT_dbt.dbt_run manual__2024-12-05T20:21:56.657239+00:00 [queued]>
+[2024-12-05T20:21:58.038+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-12-05T20:21:58.045+0000] {taskinstance.py:2330} INFO - Executing <Task(BashOperator): dbt_run> on 2024-12-05 20:21:56.657239+00:00
+[2024-12-05T20:21:58.058+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'ELT_dbt', 'dbt_run', 'manual__2024-12-05T20:21:56.657239+00:00', '--job-id', '498', '--raw', '--subdir', 'DAGS_FOLDER/ELT_metrics.py', '--cfg-path', '/tmp/tmpp4km1r3l']
+[2024-12-05T20:21:58.063+0000] {standard_task_runner.py:91} INFO - Job 498: Subtask dbt_run
+[2024-12-05T20:21:58.062+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=995) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-12-05T20:21:58.064+0000] {standard_task_runner.py:63} INFO - Started process 996 to run task
+[2024-12-05T20:21:58.094+0000] {task_command.py:426} INFO - Running <TaskInstance: ELT_dbt.dbt_run manual__2024-12-05T20:21:56.657239+00:00 [running]> on host 21bf0bd87652
+[2024-12-05T20:21:58.150+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ELT_dbt' AIRFLOW_CTX_TASK_ID='dbt_run' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T20:21:56.657239+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T20:21:56.657239+00:00'
+[2024-12-05T20:21:58.151+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-05T20:21:58.164+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-12-05T20:21:58.165+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/home/***/.local/bin/dbt run --profiles-dir /opt/***/dbt_proj --project-dir /opt/***/dbt_proj']
+[2024-12-05T20:21:58.171+0000] {subprocess.py:86} INFO - Output:
+[2024-12-05T20:21:59.489+0000] {subprocess.py:93} INFO - Usage: dbt run [OPTIONS]
+[2024-12-05T20:21:59.489+0000] {subprocess.py:93} INFO - Try 'dbt run -h' for help.
+[2024-12-05T20:21:59.490+0000] {subprocess.py:93} INFO - 
+[2024-12-05T20:21:59.490+0000] {subprocess.py:93} INFO - Error: Invalid value for '--profiles-dir': Path '/opt/***/dbt_proj' does not exist.
+[2024-12-05T20:21:59.634+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2024-12-05T20:21:59.635+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-05T20:21:59.643+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/bash.py", line 243, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2024-12-05T20:21:59.646+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=ELT_dbt, task_id=dbt_run, run_id=manual__2024-12-05T20:21:56.657239+00:00, execution_date=20241205T202156, start_date=20241205T202158, end_date=20241205T202159
+[2024-12-05T20:21:59.654+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 498 for task dbt_run (Bash command failed. The command returned a non-zero exit code 2.; 996)
+[2024-12-05T20:21:59.674+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-12-05T20:21:59.690+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T20:21:59.692+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

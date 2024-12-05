@@ -13,3 +13,26 @@
 [2024-11-26T20:29:11.629+0000] {logging_mixin.py:188} INFO - Extracted Rows:  2993504
 [2024-11-26T20:29:14.835+0000] {logging_mixin.py:188} INFO - Row count after dropping records with any null attributes:  2982755
 [2024-11-26T20:29:23.240+0000] {logging_mixin.py:188} INFO - Row count after dropping duplicates:  2982715
+[2024-11-26T20:29:42.360+0000] {logging_mixin.py:188} INFO - 
+Saved transformed data to: /opt/***/temp_store_proj/cleaned_data.csv
+[2024-11-26T20:29:42.375+0000] {logging_mixin.py:188} INFO - 
+Features in transformed data:  Index(['ride_id', 'rideable_type', 'started_at', 'ended_at',
+       'start_station_name', 'start_station_id', 'end_station_name',
+       'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng',
+       'member_casual', 'start_year', 'start_month', 'start_day', 'duration'],
+      dtype='object')
+[2024-11-26T20:29:42.377+0000] {logging_mixin.py:188} INFO - Sample records:
+[2024-11-26T20:29:42.396+0000] {logging_mixin.py:188} INFO -              ride_id  rideable_type  ... start_day duration
+0  1F77B1214EC26C33  electric_bike  ...         6    50.37
+1  2C4DBFEC79FAE712   classic_bike  ...        11    10.48
+2  3C533F406407D755   classic_bike  ...        30     1.43
+3  D46E9259B84BE225   classic_bike  ...        22    82.40
+4  0A6B5D4CC23FC8E5   classic_bike  ...         7    10.32
+
+[5 rows x 17 columns]
+[2024-11-26T20:29:43.202+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-11-26T20:29:43.203+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-11-26T20:29:43.213+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=Citibike_Hist_Data_ETL, task_id=transform_citibike_data, run_id=manual__2024-11-26T20:27:57.950285+00:00, execution_date=20241126T202757, start_date=20241126T202906, end_date=20241126T202943
+[2024-11-26T20:29:43.231+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-11-26T20:29:43.252+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-11-26T20:29:43.252+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
